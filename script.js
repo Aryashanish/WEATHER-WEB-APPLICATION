@@ -44,17 +44,17 @@ function weatherDetails(info){
 
         // using custom weather icon according to the id which api gives to us
         if(id == 800){
-            wIcon.src = "icons/clear.svg";
+            wIcon.src = "./clear.svg";
         }else if(id >= 200 && id <= 232){
-            wIcon.src = "/storm.svg";  
+            wIcon.src = "./storm.svg";  
         }else if(id >= 600 && id <= 622){
-            wIcon.src = "/snow.svg";
+            wIcon.src = "./snow.svg";
         }else if(id >= 701 && id <= 781){
-            wIcon.src = "/haze.svg";
+            wIcon.src = "./haze.svg";
         }else if(id >= 801 && id <= 804){
-            wIcon.src = "/cloud.svg";
+            wIcon.src = "./cloud.svg";
         }else if((id >= 500 && id <= 531) || (id >= 300 && id <= 321)){
-            wIcon.src = "/rain.svg";
+            wIcon.src = "./rain.svg";
         }
         
         //passing a particular weather info to a particular element
